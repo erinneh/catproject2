@@ -91,17 +91,19 @@ footer {
   text-align: center;
   font-weight: bold;
   letter-spacing: 1px;
+
 }
+
 
 /* Mobile Styles */
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 700px) {
   body {
-    background-color: #f09a9d;
+    background-color: #ffffff;
   }
 
 nav {
-  display:none;  /*Overwritten by Tablet layout*/
+  display:none;
 }
 
 .navigation {
@@ -127,6 +129,13 @@ nav {
   margin-right: auto;
   width: 80%;
   height: 20rem;
+}
+
+.hero_text {
+  color: #ffffff;
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 3em;
+  padding: 1em;
 }
 
 h1,
@@ -157,7 +166,7 @@ h2,
 
 /* Tablet Styles */
 
-@media only screen and (min-width: 401px) /*and (max-width: 960px)*/ {
+@media only screen and (min-width: 701px) /*and (max-width: 960px)*/ {
   body {
     background-color: #ffffff;
   }
@@ -255,8 +264,9 @@ h2,
 /* Desktop Styles */
 @media only screen and (min-width: 961px) {
   body {
-    background-color: #ddeeee;
+    background-color: #ffffff;
   }
 
+}
   /*Insert Content/*
 }
