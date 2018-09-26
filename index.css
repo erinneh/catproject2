@@ -1,0 +1,262 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  color: #323232;
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 2em;
+}
+
+h2 {
+  color: #00897f;
+  font-family: "PT Sans Narrow", sans-serif;
+  padding-bottom: 1em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+body {
+  color: #323232;
+  font-family: "PT Serif", serif;
+  line-height: 2em;
+  padding: 2em;
+}
+
+strong {
+  text-transform: uppercase;
+  padding-bottom: 1em;
+}
+
+span {
+  color: #f26522;
+  font-family: "PT Serif", serif;
+  padding-bottom: 1em;
+}
+
+nav {
+  color: #323232;
+  font-family: "PT Sans Narrow", sans-serif;
+  text-transform: uppercase;
+  font-size: 1.2em;
+}
+
+.action,
+.touch {
+  color: #323232;
+  font-family: "PT Sans Narrow", sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 2em;
+}
+
+.intro-container {
+  background-color: #ffffff;
+  padding: 1em;
+}
+
+.kat-container {
+  background-color: #eeeeee;
+  padding: 1em;
+}
+
+.mavis-container {
+  background-color: #eeeeee;
+  padding: 1em;
+}
+
+.intouch-container {
+  background-color: #eeeeee;
+  padding: 1em;
+}
+
+.map {
+  background-image: url("kats-map.jpg");
+  width: 100%;
+  height: 50%;
+  background-position: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer {
+  background-color: #00897f;
+  color: #ffffff;
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 1em;
+  padding: 1em;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+/* Mobile Styles */
+
+@media only screen and (max-width: 400px) {
+  body {
+    background-color: #f09a9d;
+  }
+
+nav {
+  display:none;  /*Overwritten by Tablet layout*/
+}
+
+.navigation {
+  display:none;
+}
+
+.hero_container {
+  align-items: center;
+}
+
+.hero_background {
+  background-image: url("kats-hero-mobile-bg.jpg");
+  width: 100%;
+  height: 20rem;
+}
+
+.hero_cat {
+  background-image: url("kats-hero-mobile.png");
+  background-repeat:no-repeat;
+  background-position: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: 20rem;
+}
+
+h1,
+h2,
+.action {
+  text-align: center;
+  font-size: 1.5em;
+  padding-bottom: 1em;
+}
+
+.cat_sweater {
+  background-image: url("kats-cat3.jpg");
+  width: 15rem;
+  height: 15rem;
+    border-radius: 16rem;
+      margin: 2rem;
+      background-position: center;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+}
+
+.touch {
+  display: none;
+}
+
+}
+
+/* Tablet Styles */
+
+@media only screen and (min-width: 401px) /*and (max-width: 960px)*/ {
+  body {
+    background-color: #ffffff;
+  }
+
+.title {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  padding-bottom: 1em;
+}
+
+  .hero_container {
+    align-items: center;
+  }
+
+  .hero_background {
+    background-image: url("kats-hero-desktop-bg.jpg");
+    width: 100%;
+    height: 80%;
+  }
+
+  .hero_cat {
+    background-image: url("kats-hero-desktop.png");
+    background-repeat:no-repeat;
+    background-position: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 100%;
+  }
+
+  .action,
+  .touch  {
+    text-align: center;
+    padding: 1em;
+  }
+
+  .intro-container, .costumes-container {
+    padding:2em;
+  }
+
+  .kat-mavis {
+    display:flex;
+    justify-content: space-around;
+  }
+
+.kat-container, .mavis-container {
+  margin: 1em;
+}
+
+.costumes-container {
+  display:flex;
+  justify-content: space-around;
+}
+
+.cat_sweater {
+  background-image: url("kats-cat3.jpg");
+  width: 14rem;
+  height: 14rem;
+    border-radius: 100%;
+      margin: 1em;
+}
+
+.cat_cap {
+  background-image: url("kats-cat1.jpg");
+  width: 14rem;
+  height: 14rem;
+    border-radius: 100%;
+      margin: 1em;
+}
+
+.cat_lei {
+  background-image: url("kats-cat2.jpg");
+  width: 14rem;
+  height: 14rem;
+    border-radius: 100%;
+      margin: 1em;
+
+  }
+
+  .business-contact {
+    display:flex;
+    justify-content: space-around;
+  }
+
+  .business, .contact {
+    background: #ffffff;
+    padding: 1em;
+    margin: 1em;
+  }
+}
+
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+  body {
+    background-color: #ddeeee;
+  }
+
+  /*Insert Content/*
+}
